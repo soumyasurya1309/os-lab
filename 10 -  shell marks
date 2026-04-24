@@ -1,0 +1,43 @@
+💻 Code (soumya10.sh)
+
+#!/bin/bash
+
+echo "Soumya - Result Program"
+
+echo "Enter marks for OS:"
+read os
+
+echo "Enter marks for MES:"
+read mes
+
+echo "Enter marks for TOC:"
+read toc
+
+total=$((os + mes + toc))
+percentage=$((total / 3))
+
+echo "-----------------------------"
+echo "Total Marks: $total"
+echo "Percentage: $percentage"
+echo "-----------------------------"
+
+if [ $percentage -ge 75 ]
+then
+    echo "Result: Distinction (Pass)"
+elif [ $percentage -ge 60 ]
+then
+    echo "Result: First Class (Pass)"
+elif [ $percentage -ge 45 ]
+then
+    echo "Result: Second Class (Pass)"
+else
+    echo "Result: Fail"
+fi
+
+
+
+
+▶️ RUN COMMANDS (WRITE IN PRACTICAL)
+gedit soumya10.sh
+chmod +x soumya10.sh
+./soumya10.sh
