@@ -1,0 +1,94 @@
+🐧 1. BASIC LINUX COMMANDS (CO1)
+pwd → shows current working directory
+ls → lists files and directories
+ls -l → shows detailed file information
+ls -a → displays hidden files
+cd dir → changes directory
+cd .. → moves to parent directory
+mkdir dir → creates a new directory
+rmdir dir → removes empty directory
+touch file → creates an empty file
+cat file → displays file content
+nano file → opens file editor
+cp f1 f2 → copies file
+mv f1 f2 → moves or renames file
+rm file → deletes file
+clear → clears terminal screen
+whoami → shows current user
+who → shows logged-in users
+date → displays current date/time
+cal → shows calendar
+man cmd → shows manual of command
+⚙️ 2. PROCESS MANAGEMENT COMMANDS (CO1)
+ps → displays running processes
+ps aux → shows all processes with details
+top → monitors processes in real-time
+htop → advanced process viewer (interactive)
+tree → displays directory structure in tree form
+kill PID → terminates a process by ID
+kill -9 PID → forcefully kills a process
+killall name → kills all processes by name
+jobs → shows background jobs
+bg → resumes job in background
+fg → brings job to foreground
+command & → runs process in background
+nice → starts process with priority
+renice → changes priority of running process
+👨‍👦 3. PROCESS CREATION (CO1)
+gcc file.c → compiles C program
+./a.out → executes compiled program
+⏱️ 4. FCFS SCHEDULING (CO2)
+gcc fcfs.c → compiles FCFS program
+./a.out → runs FCFS scheduling
+⚡ 5. SJF SCHEDULING (CO2)
+gcc sjf.c → compiles SJF program
+./a.out → runs SJF scheduling
+🧠 6. PRIORITY SCHEDULING (CO2)
+gcc priority.c → compiles priority scheduling
+./a.out → executes priority scheduling
+🔒 7. BANKER’S ALGORITHM (CO3)
+gcc banker.c → compiles banker’s algorithm
+./a.out → runs deadlock detection
+📄 8. FIFO PAGE REPLACEMENT (CO4)
+gcc fifo.c → compiles FIFO program
+./a.out → executes page replacement
+🐚 9. SHELL COMMANDS & SCRIPT (CO5)
+echo → prints output to terminal
+read var → takes user input
+exit → exits shell
+expr → performs arithmetic operations
+$(( )) → evaluates arithmetic expression
+-f file → checks if file exists
+-d dir → checks if directory exists
+-r file → checks read permission
+-w file → checks write permission
+nano script.sh → creates shell script
+chmod +x script.sh → gives execute permission
+./script.sh → runs shell script
+🔀 10. IF-ELSE SHELL SCRIPT (CO5)
+if → checks condition
+then → executes block if true
+else → executes block if false
+fi → ends if block
+-eq → equal comparison
+-ne → not equal
+-gt → greater than
+-lt → less than
+-ge → greater or equal
+-le → less or equal
+= → string equal
+!= → string not equal
+🔥 FINAL ULTRA-SHORT (FOR VIVA)
+
+If examiner says:
+👉 “Tell commands with use”
+
+Say confidently:
+
+ls → list files
+pwd → current directory
+ps → running processes
+top → live process monitor
+kill → terminate process
+chmod → change permission
+echo → print output
