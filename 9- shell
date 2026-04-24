@@ -1,0 +1,90 @@
+🐚 HOW TO CREATE SCRIPT (WRITE THIS IN PRACTICAL)
+gedit soumya_add.sh
+
+👉 Write code → Save → Close
+
+Then:
+
+chmod +x soumya_add.sh
+./soumya_add.sh
+
+
+
+➕ 1. ADDITION SCRIPT (soumya_add.sh)
+#!/bin/bash
+
+echo "Soumya - Addition Program"
+
+echo "Enter first number:"
+read a
+
+echo "Enter second number:"
+read b
+
+sum=$((a + b))
+
+echo "Sum = $sum"
+
+
+
+➖ 2. SUBTRACTION SCRIPT
+gedit soumya_sub.sh
+#!/bin/bash
+
+echo "Soumya - Subtraction Program"
+
+echo "Enter first number:"
+read a
+
+echo "Enter second number:"
+read b
+
+sub=$((a - b))
+
+echo "Subtraction = $sub"
+
+
+
+✖️ 3. MULTIPLICATION SCRIPT
+gedit soumya_mul.sh
+#!/bin/bash
+
+echo "Soumya - Multiplication Program"
+
+echo "Enter first number:"
+read a
+
+echo "Enter second number:"
+read b
+
+mul=$((a * b))
+
+echo "Multiplication = $mul"
+
+
+
+➗ 4. DIVISION SCRIPT
+gedit soumya_div.sh
+#!/bin/bash
+
+echo "Soumya - Division Program"
+
+echo "Enter first number:"
+read a
+
+echo "Enter second number:"
+read b
+
+if [ $b -ne 0 ]
+then
+    div=$((a / b))
+    echo "Division = $div"
+else
+    echo "Cannot divide by zero"
+fi
+
+
+
+🎯 FINAL RUN COMMAND (SAME FOR ALL)
+chmod +x filename.sh
+./filename.sh
